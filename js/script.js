@@ -57,7 +57,7 @@ function graph(){
     let z1=parseFloat(document.forms.F1.x3.value)
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
-    ctx.clearRect(1,10,300,300);
+    ctx.clearRect(0,0,300,300);
     //X
     ctx.beginPath();
     ctx.moveTo(0, myCanvas.height/2);
