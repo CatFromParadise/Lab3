@@ -16,7 +16,7 @@ function myFunc1(){
         console.log("result = "+(z).toFixed(4))
         x+=z1
     }
-    while(x<y(1+z1/2))
+    while(x<(y1+z1/2))
     graph();
     
 }
