@@ -9,7 +9,7 @@ function myFunc1(){
     let z1=parseFloat(document.forms.F1.x3.value)
     //if(x<4&&z1==0.1&&y1>1){
       //  y1+=0.1;
-}
+
     console.log("do while:")
     do{z=y(x)
         console.log("value = "+(x).toFixed(2))
