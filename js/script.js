@@ -76,7 +76,6 @@ function graph(){
     ctx.stroke();
     ctx.save();
     ctx.strokeStyle='blue';
-    console.log("for:")
     ctx.save()
     ctx.beginPath()
     ctx.translate(myCanvas.width/2, myCanvas.height/2)
