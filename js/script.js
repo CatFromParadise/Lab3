@@ -7,8 +7,8 @@ function myFunc1(){
     let x=parseFloat(document.forms.F1.x1.value)
     let y1=parseFloat(document.forms.F1.x2.value)
     let z1=parseFloat(document.forms.F1.x3.value)
-    if(x<4&&z1==0.1&&y1>1){
-        y1+=0.1;
+    //if(x<4&&z1==0.1&&y1>1){
+      //  y1+=0.1;
 }
     console.log("do while:")
     do{z=y(x)
@@ -16,7 +16,7 @@ function myFunc1(){
         console.log("result = "+(z).toFixed(4))
         x+=z1
     }
-    while(x<y1)
+    while(x<y(1+z11/2))
     graph();
     
 }
