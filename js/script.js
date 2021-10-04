@@ -24,11 +24,9 @@ function myFunc2(){
     let x=parseFloat(document.forms.F1.x1.value)
     let y1=parseFloat(document.forms.F1.x2.value)
     let z1=parseFloat(document.forms.F1.x3.value)
-    if(x<4&&z1==0.1&&y1>1){
-        y1+=0.1;
-}
+
     console.log("while:")
-    while(y1>=x){
+    while(x<(y1+z1/2)){
         z=y(x)
         console.log("value = "+(x).toFixed(2))
         console.log("result = "+(z).toFixed(4))
@@ -40,11 +38,9 @@ function myFunc3(){
     let x=parseFloat(document.forms.F1.x1.value)
     let y1=parseFloat(document.forms.F1.x2.value)
     let z1=parseFloat(document.forms.F1.x3.value)
-       if(x<4&&z1==0.1&&y1>1){
-               y1+=0.1;
-       }
+
         console.log("for:")
-        for (x; x<=y1; x+=z1) {
+        for (x; (x<=y1+z1/2); x+=z1) {
             z=y(x)
             console.log("value = "+(x).toFixed(2))
             console.log("result = "+(z).toFixed(4))
