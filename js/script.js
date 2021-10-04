@@ -43,6 +43,7 @@ function myFunc3(){
        if(x<4&&z1==0.1&&y1>1){
                y1+=0.1;
        }
+        console.log("for:")
         for (x; x<=y1; x+=z1) {
             z=y(x)
             console.log("value = "+(x).toFixed(2))
